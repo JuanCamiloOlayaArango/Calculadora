@@ -76,7 +76,7 @@ def calculadora(num1, num2, operador):
     elif operador == "*":
         ans = num1 * num2
     elif operador == "/":
-        ans = round(num1 / num2, 2)
+        ans = num1 / num2
     elif operador == "pow":
         ans = num1 ** num2
 
@@ -93,7 +93,7 @@ def click_calcular(label, num1, num2, operador, decimales, numdec):
         elif numdec == 2:
             ans = round(calculadora(valor1, valor2, operador), 2)
         elif numdec == 3:
-            ans = format(calculadora(valor1, valor2, operador), ".3f")
+            ans = round(calculadora(valor1, valor2, operador), 3)
         else:
             ans = int(calculadora(valor1, valor2, operador))
     else:
