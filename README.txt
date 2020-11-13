@@ -11,6 +11,7 @@ Widgets Adicionales:
 
 Imágenes:
 
+![calculo_simple](calculadora.png)
 ![decimales1](decimales_1.png)
-![decimales2](decimales_1.png)
+![decimales2](decimales_2.png)
 ![error](error.png)
